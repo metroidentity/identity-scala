@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM frolvlad/alpine-oraclejdk8:cleaned
 
 ENV SCALA_VERSION=2.12.0-M5 \
     SCALA_HOME=/usr/share/scala
